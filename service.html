@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Mi primer website</title>
+        <link rel="stylesheet" type ="text/css" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+      <header class="container-nav">
+        <nav class="navbar" role="navigation">
+              <a href="index.html" class="brand">Mi página web</a>
+              <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+              <button class="button-menu-toggle">Menu</button>
+            </nav>
+        </header>
+        <main>
+          <div class="container">
+            <h1>Nuestros servicios</h1>
+            <p>Descubre aquí los servicios que ofrecemos.</p>
+            <ul>
+              <li>Creacion de paginas web</li>
+              <li>Solucion de problemas digitales</li>
+              <li>Seguridad informatica</li>
+            </ul>
+          </div>
+         
+              <form id="myForm">
+                  <label for="email">Correo electrónico:</label>
+                  <input type="email" id="email" name="email" required>
+                  <button type="submit">Enviar</button>
+                </form>
+                
+          </div>
+        </main>
+        <footer>
+          <p>TECNOLOGY SERVICE COMPANY</p>
+          <button onClick="showAlert()" aria-label="Haz clic en mí">¡Haz clic en mí!</button>
+        </footer>
+        
+        <script src="index.js"></script>
+    </body>
